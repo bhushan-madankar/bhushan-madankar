@@ -10,34 +10,31 @@ impl AboutMe
     
     fn getInformation()-> Info {
        Info {
-          name:  "Bhawna ",
+          name:  "Bhushan ",
           anguage_spoken:  ["hi_IN", "en_US"],
-          Working: " Collabora ",
-          Learning: " Golang ",
+          Working: " Student ",
+          Learning: " ML ",
        }
 
     }
 
     fn getCurrentDegree() -> Degree {
         Degree {
-            course: "Master in Computer Science",
+            course: "Bachelors in Computer Science",
             onGoing : true,
         }
     }
 
     fn getMyLinks() -> Vec<&str> {
         vec ![
-            "https://linktr.ee/ConnectBhawna",
-            "https://twitter.com/ConnectBhawna",
-            "https://www.youtube.com/@ConnectBhawna",
-            "https://www.linkedin.com/in/connectbhawna/"
-            "https://github.com/ConnectBhawna"
+            "https://www.linkedin.com/in/bhushan-madankar/"
+            "https://github.com/bhushan-madankar"
         ]
     }
 
     fn getFutureGoal() -> &str
     {
-        "Learn more about Rust,Golang and NodeJS."
+        "Learn more about ML,Cyber Security and NodeJS."
     }
 }
 
