@@ -1,3 +1,51 @@
+
+📂 ~/git:(master) ⚡
+❯❯❯ ~/whoami🙋‍♂️.rs
+
+impl AboutMe
+{
+    fn say_hi() & str{
+      " Thanks for dropping by, hope you find some of my interesting work. "
+    }
+    
+    fn getInformation()-> Info {
+       Info {
+          name:  "Bhawna ",
+          anguage_spoken:  ["hi_IN", "en_US"],
+          Working: " Collabora ",
+          Learning: " Golang ",
+       }
+
+    }
+
+    fn getCurrentDegree() -> Degree {
+        Degree {
+            course: "Master in Computer Science",
+            onGoing : true,
+        }
+    }
+
+    fn getMyLinks() -> Vec<&str> {
+        vec ![
+            "https://linktr.ee/ConnectBhawna",
+            "https://twitter.com/ConnectBhawna",
+            "https://www.youtube.com/@ConnectBhawna",
+            "https://www.linkedin.com/in/connectbhawna/"
+            "https://github.com/ConnectBhawna"
+        ]
+    }
+
+    fn getFutureGoal() -> &str
+    {
+        "Learn more about Rust,Golang and NodeJS."
+    }
+}
+
+
+📂 ~/code
+❯❯❯
+
+
 <h1>Hello World 👋, I'm Bhushan Madankar</h1>
 <p>A passionate Engineering Student from Ramdeobaba University Nagpur</p>
 <h2>🚀 Languages and Tools I Use</h2>
