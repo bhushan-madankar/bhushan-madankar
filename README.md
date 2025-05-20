@@ -11,7 +11,7 @@ impl AboutMe
     fn getInformation()-> Info {
        Info {
           name:  "Bhushan ",
-          anguage_spoken:  ["hi_IN", "en_US"],
+          Language_spoken:  ["hi_IN", "en_US"],
           Working: " Student ",
           Learning: " ML ",
        }
@@ -34,7 +34,7 @@ impl AboutMe
 
     fn getFutureGoal() -> &str
     {
-        "Learn more about ML,Cyber Security and NodeJS."
+        "Learn more about ML,Cyber Security and Python."
     }
 }
 
